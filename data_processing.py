@@ -8,5 +8,3 @@ def calculate_mean_and_covariance(returns):
     mean_returns = returns.mean()
     covariance_matrix = returns.cov()
     return mean_returns, covariance_matrix
-
-print("Hello GitHub")
